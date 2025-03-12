@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="skyblue">
+    <table align=" center" cellpadding="15">
+         <tr>  
+
+            <th> <a href="form1.html"> Contact us</th>
+                <th> <a href="form2.html"> Create profile</th>
+                    <th> <a href="form3.html"> Login</th>
+         </tr>
+
+
+    </table>
+    <hr color="orange "size=5/>
+
+    <form action=" save.php" method="get">
+        <table align="center" cellpadding="10">
+         <caption><h1>Create profile</h1></caption>
+
+         <tr>
+            <th>Application No</th>
+            <td colspan="3"><input type="number"value="123456"  name= "appno" readonly="readonly"/></td>
+         </tr>
+
+         <tr>
+            <th>First name </th>
+            <td><input type="text" name=" fname" required/></td>
+            <th>last name</th>
+          <td>  <input type="text"/></td>
+         </tr>
+         <tr>
+            <th>mobile no</th>
+            <td> <input type="number"/></td>
+            <th> Email Id</th>
+            <td><input type="email"/></td>
+         </tr>
+         <tr>
+            <th> password</th>
+            <td> <input type= "password"/></td>
+            <th> conform password</th>
+            <td><input type="password"/></td>
+            </tr>
+          
+            <tr>
+                <th> Date of birth</th> 
+                <td><input type="datetime-local"/></td>
+                   
+               <th> gender</th>
+               <td>
+            <lable>  <input type="radio"value="m" name="gender"id="male"/>male</lable>
+             <label ><input type="radio"value="f"name="gender"id="female" checked/>female</lable>
+            </tr>
+            <tr>
+                <th>profile photo</th>
+                <td><input type= "file" ></td>
+                <th> Education</th>
+                <td>
+                    <select>
+                        <option> choose</option>
+                        <option>bangalore</option>
+                        <option selected> mumbai</option>
+                        <option> Delhi</option>
+                        <option> kolkata</option>
+                    </select>
+                </td>
+            </tr>
+            <tr> 
+                <th>Hobbies</th>
+                <td colspan="3">
+                    <lable for="a"><input id="a"  type="checkbox" name="hobbie[]" value="A"/> book Reading</lable>
+                    <lable for="b"><input id="b" type="checkbox" name="hobbie[]" value="B"/> book writing</lable>
+                    <lable for="c"><input id="c" type="checkbox" name="hobbie[]" value="C" checked/> shopping</lable>
+                    <lable for="d"><input id="e" type="checkbox" name="hobbie[]" value="D"/> book Reading</lable>
+                    <lable for="e"><input id= "f" type="checkbox"name="hobbie[]" value="E"/> web browing</lable>
+                </td>
+            </tr>
+            <tr>
+                <th> full address</th>
+                <td colspan="3">
+                    <textarea rows="8 " cols="80"></textarea>
+                    </td>
+            </tr>
+            <tr valign="top">
+                <th> terms & condition</th>
+                <td colspan="3">
+                    <input type="checkbox" checked/>I Agree...
+
+                    <br/><br/>
+                    <details>
+                        <summary>read more.....</summary>
+                        <small>
+                            ert yuio fghjk sghjkll tuuil dhjkklll ghj
+                            sfghh jjjkkl hjjjkk jjkkk jjkkkk jhjk jjk
+                        </small>
+                    </details>
+                    </td>
+            </tr>
+
+            <tr>
+            <th colspan="4">
+                <button type="submit"> Submit</button>
+                <button type="reset"> Reset</button>
+            </th>
+         </tr>
+        </table>
+ 
+
+    </form>
+</body>
+</html>

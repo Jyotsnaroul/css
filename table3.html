@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center"> Table rowspan and colspan</h1>
+    <a href="table.html">Go Back</a>
+    <table align="center" cellpadding="10"cellspacing="0" border="1">
+    <thead>
+        <tr>
+            <th> Emp Id </th>
+            <th>full name</th>
+            <th> Department</th>
+            <th>salary</th>
+            <th> DOJ</th>
+            <th>reporting too</th>
+            <th> Employment type</th>
+            <th>center Head</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>1</td>
+            <td> Anil</td>
+            <td> Marketing</td>
+            <td>Rs.35000</td>
+            <td rowspan="2"> 15-jan-2019</td>
+            <td rowspan="3">Ali Tl</td>
+            <td rowspan="2"> permanent</td>
+            <td rowspan="5" bgcolor="pink" align="center">
+            <h4> mr.Anil</h4>
+            <table cellpadding="15">
+                <tr>
+                    <td>mobile no</td>
+                    <td>4567890389</td>
+                </tr>
+
+                <tr>
+
+                <td>e-mail Id</td>
+                <td> anil67@gmail.com</td>
+                 </tr>
+
+                <tr> 
+                    <td>office Address</td>
+                    <td> building 19, cabin no7.</td>
+                </tr>
+            </table>
+          
+            <div> Nested Table Example</div>
+        </tr>
+    </td>
+        <tr>
+
+            <td>2</td>
+            <td>Mohit</td>
+            <td> HR</td>
+            <td>Rs.24000</td>
+        
+        </tr>
+
+     <tr>
+    
+       <td>3</td>
+       <td>alex</td>
+       <td> marketing</td>
+       <td>Rs.25000</td>
+       <td>10-june-1998</td>
+       <td rowspan="2"> contract</td>
+    
+       
+     </tr>
+     <tr>
+        <td> 4</td>
+        <td>punit</td>
+        <td>Developer</td>
+        <td> Rs.34000</td>
+        <td> 17-march-2024</td>
+        <td> anuj</td>
+     </tr>
+          <td> 5</td>
+          <td> shayam</td>
+          <td> seo Executive</td>
+          <td colspan="4" align="center"> Rs.18000</td>
+
+    </tbody>
+   <tfoot>
+    <tr>
+        <th> Emp id </th>
+        <th>full name</th>
+        <th> Department</th>
+        <th>salary</th>
+        <th> DOJ</th>
+        <th>reporting to</th>
+        <th> Employment</th>
+        <th> center Head</th>
+    </tr>
+    </tfoot>
+</body>
+</html>

@@ -1,0 +1,130 @@
+Html-it has collection of tags with limited property and value.
+
+css- cascading  style sheet.
+-it has collection of only property and value.
+-it change look and feel of html.
+Responsive webpage=html(tag)+css(property & value).
+
+
+types---
+1-inline
+2.internal
+3.external
+4.inport
+
+
+1.inline css
+=============
+syntax-
+ <tagname style="property:value; property2:value:property3:value;"></tagname>
+
+example-
+<p style="height:303px;width:400px;background: red; "></p>
+
+
+
+
+
+2.internal css
+syntax
+      selector{
+            property1:value;
+            property2:value;
+            property3:value;
+      }
+      example
+
+           p{
+            padding:40px 30px 100px ;
+             background-color: blue;
+             float:left; 
+             margin:40px;
+             width:3500px;
+        }
+      
+      All html tags are called selsctor in css.
+       
+       css has 6 types of selsctor to combine html with css.
+       1.tag selector
+       ex-
+
+       ==============================
+       2.tag group selector
+        h1, p,div ,h3{
+        font-style: italic;
+        }
+        ===================================
+       3.id selector
+
+       #block1{
+            margin:2% ;
+            background-color: skyblue;
+            height: 100px;
+        }
+        note;- one  id we should use only 1 times in 1 page else js will face problem.
+
+        =====================
+       4.class selector
+       ex-
+       .service{
+            margin: 2%;
+            width: 21px;
+            height: 250px;
+            background: purple;
+            float: left;
+        }
+        note-- one class can be use 1 time or more multiple time in a page.
+==================================================
+
+
+       5.parent child selector
+       ex-    #service p{
+            width: 21%; ;
+            margin: 2%;
+            height: 300px;
+            background: red;
+            float:left ;
+          }
+
+============================================================
+       6.attribute selector
+
+    ex- input[type="text"]{
+            width: 250px; 
+            color:red ;
+            padding: 4px;
+      }
+      =============================
+h1{}-tag selector
+h1,h2{}-group selector
+div p{}- parent child selector
+#abc{}-id selector
+.xyz{}- class selector
+input[type="text"]{}-attribute selector
+          
+====================================================================================================================================
+              ------- property list ---------
+height-3 types
+width-4 types
+background-9 types
+float- it convert from block level tag to inline tag.
+        float :left; it print from left to right.
+        float :right; it print from   right to right.
+
+margin-it apply space outside of tag.
+margin:auto; it print in center of area.
+margin:40px; it applt 40px gap all side.
+
+margin-top:
+margin-bottom:
+margin-left:
+margin-right:
+margin:top right bottom left;
+
+padding- it apply space inside left;
+padding-top;
+padding-left;
+padding -right;
+padding-bottom;
+padding:top right bottom left;
+
